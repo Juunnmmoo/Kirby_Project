@@ -20,6 +20,13 @@ namespace mo {
 
 		HDC mHdc;
 		HWND mHwnd;
+	
+		//¹é¹öÆÛ
+		HBITMAP mBackBuffer;
+		HDC mBackHDC;
+
+		UINT mWidth;
+		UINT mHeight;
 	};
 }
 

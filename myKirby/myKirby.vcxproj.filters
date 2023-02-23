@@ -32,6 +32,15 @@
     <Filter Include="Engine\Common">
       <UniqueIdentifier>{3e97ad96-c533-4b79-8655-cc30d7e8b236}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Time">
+      <UniqueIdentifier>{ee7ada5b-2c9a-444c-9c4e-0a798e303a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Player">
+      <UniqueIdentifier>{1862ba6c-0683-46b5-8a31-ebfb1bd93a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Scene">
+      <UniqueIdentifier>{a2bd22eb-7162-4943-89c5-ef5d211d2903}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -79,6 +88,15 @@
     <ClInclude Include="moComponent.h">
       <Filter>Engine\Component</Filter>
     </ClInclude>
+    <ClInclude Include="moTime.h">
+      <Filter>Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="moPlayScene.h">
+      <Filter>Contents\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="moKirby.h">
+      <Filter>Contents\Player</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico">
@@ -115,6 +133,15 @@
     </ClCompile>
     <ClCompile Include="moComponent.cpp">
       <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="moTime.cpp">
+      <Filter>Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="moPlayScene.cpp">
+      <Filter>Contents\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="moKirby.cpp">
+      <Filter>Contents\Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

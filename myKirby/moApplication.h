@@ -13,6 +13,9 @@ namespace mo {
 		void Update();
 		void Render();
 		
+		HDC getHdc() { return mHdc; }
+		HWND getHwnd() { return mHwnd; }
+	
 	private:
 
 		HDC mHdc;

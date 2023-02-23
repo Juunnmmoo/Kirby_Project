@@ -1,4 +1,5 @@
 #include "moSceneManager.h"
+#include "moPlayScene.h"
 
 namespace mo {
 
@@ -7,6 +8,7 @@ namespace mo {
 	void SceneManager::Initialize()
 	{
 		mScenes.resize((UINT)eSceneType::Max);
+		mScenes[(UINT)eSceneType::Play] = new PlayScene;
 
 		for (Scene* scene : mScenes)
 		{

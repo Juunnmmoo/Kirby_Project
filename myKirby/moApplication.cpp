@@ -1,5 +1,6 @@
 #include "moApplication.h"
 #include "moSceneManager.h"
+#include "moTime.h"
 
 namespace mo {
 	Application::Application()
@@ -15,6 +16,7 @@ namespace mo {
 		mHwnd = hWnd;
 		mHdc = GetDC(hWnd);
 
+		Time::Initiailize();
 		SceneManager::Initialize();	
 	}
 	void Application::Run()
@@ -25,11 +27,13 @@ namespace mo {
 	void Application::Update()
 	{
 
+		Time::Update();
 		SceneManager::Update();
 	}
 	void Application::Render()
 	{
 
+		Time::Render(mHdc);
 		SceneManager::Render(mHdc);
 	}
 }

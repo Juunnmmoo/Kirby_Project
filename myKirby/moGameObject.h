@@ -14,9 +14,10 @@ namespace mo {
 		virtual void Render(HDC mHdc);
 
 		void SetPos(Vector2 pos) { mPos = pos; }
+	protected:
+		Vector2 mPos;
 
 	private:
-		Vector2 mPos;
 		
 		std::vector<Component*> mComponents;
 	};

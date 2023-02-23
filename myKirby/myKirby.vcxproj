@@ -134,11 +134,14 @@
     <ClInclude Include="moEntity.h" />
     <ClInclude Include="moEnums.h" />
     <ClInclude Include="moGameObject.h" />
+    <ClInclude Include="moKirby.h" />
     <ClInclude Include="moLayer.h" />
     <ClInclude Include="moMath.h" />
     <ClInclude Include="momoEngine.h" />
+    <ClInclude Include="moPlayScene.h" />
     <ClInclude Include="moScene.h" />
     <ClInclude Include="moSceneManager.h" />
+    <ClInclude Include="moTime.h" />
     <ClInclude Include="myKirby.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
@@ -148,10 +151,13 @@
     <ClCompile Include="moComponent.cpp" />
     <ClCompile Include="moEntity.cpp" />
     <ClCompile Include="moGameObject.cpp" />
+    <ClCompile Include="moKirby.cpp" />
     <ClCompile Include="moLayer.cpp" />
     <ClCompile Include="moMath.cpp" />
+    <ClCompile Include="moPlayScene.cpp" />
     <ClCompile Include="moScene.cpp" />
     <ClCompile Include="moSceneManager.cpp" />
+    <ClCompile Include="moTime.cpp" />
     <ClCompile Include="myKirby.cpp" />
   </ItemGroup>
   <ItemGroup>

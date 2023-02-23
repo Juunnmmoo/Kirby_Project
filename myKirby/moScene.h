@@ -15,6 +15,10 @@ namespace mo {
 		virtual void Update();
 		virtual void Render(HDC mHdc);
 
+		void addGameObject(GameObject* obj, eLayerType layerType) {
+			mLayers[(UINT)layerType]->addGaemObject(obj);
+		}
+
 	private:
 		
 		std::vector<Layer*> mLayers;

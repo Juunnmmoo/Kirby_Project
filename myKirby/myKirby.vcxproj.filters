@@ -41,6 +41,9 @@
     <Filter Include="Contents\Scene">
       <UniqueIdentifier>{a2bd22eb-7162-4943-89c5-ef5d211d2903}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{23306a9b-b4de-4bd8-b522-3c77f1193e72}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -97,6 +100,9 @@
     <ClInclude Include="moKirby.h">
       <Filter>Contents\Player</Filter>
     </ClInclude>
+    <ClInclude Include="moInput.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico">
@@ -142,6 +148,9 @@
     </ClCompile>
     <ClCompile Include="moKirby.cpp">
       <Filter>Contents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="moInput.cpp">
+      <Filter>Engine\Input</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

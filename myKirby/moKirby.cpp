@@ -1,5 +1,6 @@
 #include "moKirby.h"
 #include "moTime.h"
+#include "moInput.h"
 
 namespace mo {
 	Kirby::Kirby()
@@ -16,22 +17,22 @@ namespace mo {
 	{
 		GameObject::Update();
 
-		if (GetAsyncKeyState(VK_LEFT) & 0x8000)
+		if (Input::GetKeyState(eKeyCode::Left) == eKeyState::Pressed)
 		{
 			mPos.x -= 100.0f * Time::DeltaTime();
 		}
 
-		if (GetAsyncKeyState(VK_RIGHT) & 0x8000)
+		if (Input::GetKeyState(eKeyCode::Right) == eKeyState::Pressed)
 		{
 			mPos.x += 100.0f * Time::DeltaTime();
 		}
 
-		if (GetAsyncKeyState(VK_UP) & 0x8000)
+		if (Input::GetKeyState(eKeyCode::Up) == eKeyState::Pressed)
 		{
 			mPos.y -= 100.0f * Time::DeltaTime();
 		}
 
-		if (GetAsyncKeyState(VK_DOWN) & 0x8000)
+		if (Input::GetKeyState(eKeyCode::Down) == eKeyState::Pressed)
 		{
 			mPos.y += 100.0f * Time::DeltaTime();
 		}

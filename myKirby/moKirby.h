@@ -1,6 +1,6 @@
 #pragma once
 #include "moGameObject.h"
-
+#include "moImage.h"
 namespace mo {
 
 	class Kirby	: public GameObject
@@ -14,6 +14,8 @@ namespace mo {
 		virtual void Render(HDC mHdc) override;
 
 	private:
+
+		Image* mImage;
 	};
 
 }

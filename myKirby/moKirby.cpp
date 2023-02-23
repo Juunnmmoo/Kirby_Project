@@ -1,6 +1,8 @@
 #include "moKirby.h"
 #include "moTime.h"
 #include "moInput.h"
+#include "moSceneManager.h"
+#include "moResources.h"
 
 namespace mo {
 	Kirby::Kirby()
@@ -11,6 +13,7 @@ namespace mo {
 	}
 	void Kirby::Initialize()
 	{
+		mImage = Resources::Load<Image>(L"Cuphead", L"..\\Resources\\Idle.bmp");
 		GameObject::Initialize();
 	}
 	void Kirby::Update()
@@ -39,20 +42,6 @@ namespace mo {
 	}
 	void Kirby::Render(HDC mHdc)
 	{
-		GameObject::Render(mHdc);
-		// stock 오브젝트
-		HBRUSH brush = CreateSolidBrush(RGB(0, 0, 0));
-		HBRUSH oldBrush = (HBRUSH)SelectObject(mHdc, brush);
-		//Rectangle(mHdc, -1, -1, 1601, 901);
-
-		HPEN pen = CreatePen(PS_SOLID, 2, RGB(255, 0, 255));
-		HPEN oldPen = (HPEN)SelectObject(mHdc, pen);
-
-		Rectangle(mHdc, mPos.x, mPos.y, mPos.x + 100, mPos.y + 100);
-
-		SelectObject(mHdc, oldPen);
-		DeleteObject(pen);
-		SelectObject(mHdc, oldBrush);
-		DeleteObject(brush);
+		BitBlt(mHdc, mPos.x, mPos.y, mImage->GetWidth(), mImage->GetHeight(), mImage->GetHdc(), 0, 0, SRCCOPY);
 	}
 }

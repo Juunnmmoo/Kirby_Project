@@ -44,6 +44,9 @@
     <Filter Include="Engine\Input">
       <UniqueIdentifier>{23306a9b-b4de-4bd8-b522-3c77f1193e72}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Resource">
+      <UniqueIdentifier>{f5765c48-104b-43f6-a1a6-19e50bd2a0ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -103,6 +106,13 @@
     <ClInclude Include="moInput.h">
       <Filter>Engine\Input</Filter>
     </ClInclude>
+    <ClInclude Include="moResource.h">
+      <Filter>Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="moResources.h">
+      <Filter>Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="moImage.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico">
@@ -152,6 +162,13 @@
     <ClCompile Include="moInput.cpp">
       <Filter>Engine\Input</Filter>
     </ClCompile>
+    <ClCompile Include="moResource.cpp">
+      <Filter>Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="moResources.cpp">
+      <Filter>Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="moImage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="myKirby.rc">

@@ -10,10 +10,10 @@ namespace mo {
 	}
 	void PlayScene::Initialize()
 	{
-		Scene::Initialize();
-		
 		Kirby* kirby = new Kirby;
 		addGameObject(kirby, eLayerType::Player);
+
+		Scene::Initialize();
 	}
 	void PlayScene::Update()
 	{

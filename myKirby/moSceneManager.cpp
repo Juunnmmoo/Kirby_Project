@@ -40,5 +40,12 @@ namespace mo {
 	}
 	void SceneManager::Release()
 	{
+		for (Scene* scene : mScenes)
+		{
+			if (scene == nullptr)
+				continue;
+			delete scene;
+			scene = nullptr;
+		}
 	}
 }

@@ -13,7 +13,8 @@ namespace mo {
 	}
 	void Kirby::Initialize()
 	{
-		mImage = Resources::Load<Image>(L"Cuphead", L"..\\Resources\\Idle.bmp");
+		mImage = Resources::Load<Image>(L"IceKirby", L"..\\Resources\\IceKirby.bmp");
+		//mImage = Resources::Load<Image>(L"Cuphead", L"..\\Resources\\Idle.bmp");
 		GameObject::Initialize();
 	}
 	void Kirby::Update()

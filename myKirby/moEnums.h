@@ -4,6 +4,7 @@ enum class eSceneType
 {
 	Title,
 	Play,
+	Stage1,
 	Ending,
 	Max,
 };

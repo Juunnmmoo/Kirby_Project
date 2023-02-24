@@ -47,6 +47,12 @@
     <Filter Include="Engine\Resource">
       <UniqueIdentifier>{f5765c48-104b-43f6-a1a6-19e50bd2a0ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Image">
+      <UniqueIdentifier>{d4572ad3-b636-41fa-8d79-47bba6032292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\BackGround">
+      <UniqueIdentifier>{42d0fb58-11af-4472-88ee-e0806201f5a4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -112,12 +118,20 @@
     <ClInclude Include="moResources.h">
       <Filter>Engine\Resource</Filter>
     </ClInclude>
-    <ClInclude Include="moImage.h" />
     <ClInclude Include="moTitleScene.h">
       <Filter>Contents\Scene</Filter>
     </ClInclude>
     <ClInclude Include="moTransform.h">
       <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="moStage1.h">
+      <Filter>Contents\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="moImage.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="moBG_Stage1.h">
+      <Filter>Contents\BackGround</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -174,12 +188,20 @@
     <ClCompile Include="moResources.cpp">
       <Filter>Engine\Resource</Filter>
     </ClCompile>
-    <ClCompile Include="moImage.cpp" />
     <ClCompile Include="moTitleScene.cpp">
       <Filter>Contents\Scene</Filter>
     </ClCompile>
     <ClCompile Include="moTransform.cpp">
       <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="moStage1.cpp">
+      <Filter>Contents\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="moImage.cpp">
+      <Filter>Engine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="moBG_Stage1.cpp">
+      <Filter>Contents\BackGround</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -15,7 +15,10 @@ namespace mo {
 		
 		HDC getHdc() { return mHdc; }
 		HWND getHwnd() { return mHwnd; }
-	
+		UINT getWidth() { return mWidth; }
+		UINT getHeight() { return mHeight; }
+
+
 	private:
 
 		HDC mHdc;

@@ -1,6 +1,7 @@
 #include "moSceneManager.h"
 #include "moPlayScene.h"
 #include "moTitleScene.h"
+#include "moStage1.h"
 
 namespace mo {
 
@@ -17,7 +18,11 @@ namespace mo {
 		mScenes[(UINT)eSceneType::Play] = new PlayScene;
 		mScenes[(UINT)eSceneType::Play]->SetName(L"PlayeScene");
 
-		mActiveScene = mScenes[(UINT)eSceneType::Title];
+		mScenes[(UINT)eSceneType::Stage1] = new Stage1;
+		mScenes[(UINT)eSceneType::Stage1]->SetName(L"Stage1");
+
+
+		mActiveScene = mScenes[(UINT)eSceneType::Stage1];
 
 		for (Scene* scene : mScenes)
 		{

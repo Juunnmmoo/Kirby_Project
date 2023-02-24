@@ -17,7 +17,7 @@ namespace mo {
 		mHwnd = hWnd;
 		mHdc = GetDC(hWnd);
 
-		mWidth = 1080;
+		mWidth = 1400;
 		mHeight = 600;
 				
 		//비트맵 해상도를 설정하기 위한 실제 윈도우 크기를 계산해준다.
@@ -27,7 +27,7 @@ namespace mo {
 
 		// 윈도우 크기 변경및 출력 설정
 		SetWindowPos(mHwnd
-			, nullptr, 100, 50
+			, nullptr, 50, 50
 			, rect.right - rect.left
 			, rect.bottom - rect.top
 			, 0);
@@ -59,7 +59,7 @@ namespace mo {
 	void Application::Render()
 	{
 		// clear
-		Rectangle(mBackHDC, -1, -1, 1080, 602);
+		Rectangle(mBackHDC, -1, -1, 1402, 602);
 
 		Time::Render(mBackHDC);
 		Input::Render(mBackHDC);

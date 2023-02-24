@@ -4,6 +4,7 @@ namespace mo {
 	Scene::Scene()
 	{
 		mLayers.resize((UINT)eLayerType::End);
+		mLayers[(UINT)eLayerType::BG] = new Layer;
 		mLayers[(UINT)eLayerType::Player] = new Layer;
 	}
 	Scene::~Scene()

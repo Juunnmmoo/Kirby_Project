@@ -130,6 +130,7 @@
     <ClInclude Include="CommonInclude.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="moApplication.h" />
+    <ClInclude Include="moBG_Stage1.h" />
     <ClInclude Include="moComponent.h" />
     <ClInclude Include="moEntity.h" />
     <ClInclude Include="moEnums.h" />
@@ -145,6 +146,7 @@
     <ClInclude Include="moResources.h" />
     <ClInclude Include="moScene.h" />
     <ClInclude Include="moSceneManager.h" />
+    <ClInclude Include="moStage1.h" />
     <ClInclude Include="moTime.h" />
     <ClInclude Include="moTitleScene.h" />
     <ClInclude Include="moTransform.h" />
@@ -154,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="moApplication.cpp" />
+    <ClCompile Include="moBG_Stage1.cpp" />
     <ClCompile Include="moComponent.cpp" />
     <ClCompile Include="moEntity.cpp" />
     <ClCompile Include="moGameObject.cpp" />
@@ -167,6 +170,7 @@
     <ClCompile Include="moResources.cpp" />
     <ClCompile Include="moScene.cpp" />
     <ClCompile Include="moSceneManager.cpp" />
+    <ClCompile Include="moStage1.cpp" />
     <ClCompile Include="moTime.cpp" />
     <ClCompile Include="moTitleScene.cpp" />
     <ClCompile Include="moTransform.cpp" />

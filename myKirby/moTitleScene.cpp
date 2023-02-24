@@ -21,7 +21,7 @@ namespace mo {
 	void TitleScene::Update()
 	{
 		if (Input::GetKeyState(eKeyCode::N) == eKeyState::Down) {
-			SceneManager::LoadScene(eSceneType::Play);
+			SceneManager::LoadScene(eSceneType::Stage1);
 		}
 	}
 

@@ -48,6 +48,7 @@ namespace mo {
 	}
 	void Kirby::Render(HDC mHdc)
 	{
+		GameObject::Render(mHdc);
 		Transform* tr = getComponent<Transform>();
 		Vector2 pos = tr->getPos();
 		BitBlt(mHdc, pos.x, pos.y, mImage->GetWidth(), mImage->GetHeight(), mImage->GetHdc(), 0, 0, SRCCOPY);

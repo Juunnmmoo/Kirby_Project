@@ -1,13 +1,43 @@
-﻿  moKirby.cpp
+﻿  moApplication.cpp
 C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(26,21): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(31,21): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(36,21): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(41,21): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(46,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(46,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  moResources.cpp
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moApplication.cpp(24,23): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moApplication.cpp(24,32): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+  moGameObject.cpp
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  moKirby.cpp
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(30,20): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(35,20): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(40,20): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(45,20): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(53,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moKirby.cpp(53,19): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  moLayer.cpp
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  moPlayScene.cpp
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  moResource.cpp
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  moScene.cpp
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  moSceneManager.cpp
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  moTime.cpp
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moTime.cpp(27,29): warning C4244: '초기화 중': 'LONGLONG'에서 'double'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  moTitleScene.cpp
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  moTransform.cpp
 C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\Junmo\OneDrive\바탕 화면\myKirby_WinAPI\myKirby\moMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   myKirby.cpp

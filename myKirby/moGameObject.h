@@ -13,12 +13,28 @@ namespace mo {
 		virtual void Update();
 		virtual void Render(HDC mHdc);
 
-		void SetPos(Vector2 pos) { mPos = pos; }
-	protected:
-		Vector2 mPos;
+		template <typename T>
+		T* addComponent() {
+			T* comp = new T;
+			UINT compType = (UINT)comp->getType();
+			mComponents[compType] = comp;
+
+			return comp;
+		}
+
+		template <typename T>
+		T* getComponent() {
+			for (Component* comp : mComponents) {
+				if (dynamic_cast<T*>(comp))
+					return dynamic_cast<T*>(comp);
+			}
+			return nullptr;
+		
+		}
+
+
 
 	private:
-		
 		std::vector<Component*> mComponents;
 	};
 

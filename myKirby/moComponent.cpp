@@ -2,7 +2,8 @@
 
 
 namespace mo {
-	Component::Component()
+	Component::Component(eComponentType type)
+		: mType(type)
 	{
 	}
 	Component::~Component()

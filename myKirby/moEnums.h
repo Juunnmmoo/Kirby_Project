@@ -18,3 +18,14 @@ enum class eLayerType
 	UI,
 	End,
 };
+
+
+enum class eComponentType
+{
+	Transform,
+	Collider,
+	SpriteRenderer,
+	Animator,
+	Audio,
+	End,
+};

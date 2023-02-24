@@ -42,4 +42,14 @@ namespace mo {
 			layer->Render(mHdc);
 		}
 	}
+	void Scene::addGameObject(GameObject* obj, eLayerType layerType)
+	{
+		mLayers[(UINT)layerType]->addGaemObject(obj);
+	}
+	void Scene::OnEnter()
+	{
+	}
+	void Scene::OnExit()
+	{
+	}
 }

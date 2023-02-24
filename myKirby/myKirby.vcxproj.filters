@@ -113,6 +113,12 @@
       <Filter>Engine\Resource</Filter>
     </ClInclude>
     <ClInclude Include="moImage.h" />
+    <ClInclude Include="moTitleScene.h">
+      <Filter>Contents\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="moTransform.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico">
@@ -169,6 +175,12 @@
       <Filter>Engine\Resource</Filter>
     </ClCompile>
     <ClCompile Include="moImage.cpp" />
+    <ClCompile Include="moTitleScene.cpp">
+      <Filter>Contents\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="moTransform.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="myKirby.rc">

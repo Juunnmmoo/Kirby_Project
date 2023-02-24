@@ -11,8 +11,11 @@ namespace mo {
 		static void Render(HDC mHdc);
 		static void Release();
 	
+		static void LoadScene(eSceneType sceneType);
+
 	private:
 		static std::vector<Scene*> mScenes;
+		static Scene* mActiveScene;
 	};
 
 }

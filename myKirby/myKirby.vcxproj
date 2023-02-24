@@ -146,6 +146,8 @@
     <ClInclude Include="moScene.h" />
     <ClInclude Include="moSceneManager.h" />
     <ClInclude Include="moTime.h" />
+    <ClInclude Include="moTitleScene.h" />
+    <ClInclude Include="moTransform.h" />
     <ClInclude Include="myKirby.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
@@ -166,6 +168,8 @@
     <ClCompile Include="moScene.cpp" />
     <ClCompile Include="moSceneManager.cpp" />
     <ClCompile Include="moTime.cpp" />
+    <ClCompile Include="moTitleScene.cpp" />
+    <ClCompile Include="moTransform.cpp" />
     <ClCompile Include="myKirby.cpp" />
   </ItemGroup>
   <ItemGroup>

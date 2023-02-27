@@ -16,6 +16,9 @@ namespace mo {
 	private:
 
 		Image* mImage;
+		float mTime;
+		int mIdx;
+		int mHalingIdx;
 	};
 
 }
